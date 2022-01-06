@@ -1,9 +1,9 @@
 {
-  "name": "Jipeng Zhang",
-  "short_name": "Jipeng Zhang",
+  "name": "Jipeng Zhang Homepage",
+  "short_name": "Jipeng Zhang Homepage",
   "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
   "icons": [{
     "src": "/media/icon_hu96350a24dde627e763a4095d6d258a40_12798_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
