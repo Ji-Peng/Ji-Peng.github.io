@@ -1,0 +1,975 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.2.0 for Hugo" />
+  
+
+  
+    <meta name="google-site-verification" content="M-UdF2AKIRZ9gTw9pGO_7vuT7xURRTV_xeWHjNZQfro" />
+    <meta name="baidu-site-verification" content="code-BuWT4BDGPF" />
+    <meta name="msvalidate.01" content="5AF29DE0415F81B1C36201B2E5A0DD39" />
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jipeng Zhang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="开发环境, 写作环境, 科学上网等" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Ji-Peng.github.io/tutorials/basic/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#3f51b5" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e0fdc8dd3293d443eb337d05f22a677f.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="/tutorials/basic/index.xml" type="application/rss+xml" title="Jipeng Zhang Homepage" />
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu1fae52e4fd553c9fd563a6a4b8ee5205_26643_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1fae52e4fd553c9fd563a6a4b8ee5205_26643_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://Ji-Peng.github.io/tutorials/basic/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Jipeng Zhang Homepage" />
+  <meta property="og:url" content="https://Ji-Peng.github.io/tutorials/basic/" />
+  <meta property="og:title" content="Windows下开发与写作基本配置 | Jipeng Zhang Homepage" />
+  <meta property="og:description" content="开发环境, 写作环境, 科学上网等" /><meta property="og:image" content="https://Ji-Peng.github.io/media/icon_hu1fae52e4fd553c9fd563a6a4b8ee5205_26643_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://Ji-Peng.github.io/media/icon_hu1fae52e4fd553c9fd563a6a4b8ee5205_26643_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-01-14T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <title>Windows下开发与写作基本配置 | Jipeng Zhang Homepage</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2dc142eeeb9fb6a5e84fd910c81399b5" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jipeng Zhang Homepage</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jipeng Zhang Homepage</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/tutorials/"><span>Tutorial</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+          Tutorial
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/tutorials/"><i class="fas fa-arrow-left pr-1"></i>Tutorial</a></li>
+      </ul>
+
+      
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link  active" href="/tutorials/basic/">Windows下开发与写作基本配置</a>
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#开发环境">开发环境</a>
+      <ul>
+        <li><a href="#wsl与虚拟机">WSL与虚拟机</a></li>
+      </ul>
+    </li>
+    <li><a href="#写作环境">写作环境</a></li>
+    <li><a href="#科学上网">科学上网</a></li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+  
+
+  <li class="breadcrumb-item">
+    <a href="/">
+      
+        Home
+      
+    </a>
+  </li>
+
+
+  <li class="breadcrumb-item">
+    <a href="/tutorials/">
+      
+        Tutorial
+      
+    </a>
+  </li>
+
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Windows下开发与写作基本配置
+      </li>
+    </ol>
+  </nav>
+
+
+          
+
+          <h1>Windows下开发与写作基本配置</h1>
+
+          <div class="article-style">
+            <p>本文对Windows下开发与写作环境的基本配置进行描述</p>
+<h2 id="开发环境">开发环境</h2>
+<h3 id="wsl与虚拟机">WSL与虚拟机</h3>
+<h4 id="两者对比">两者对比</h4>
+<p>WSL: <a href="https://docs.microsoft.com/zh-cn/windows/wsl/" target="_blank" rel="noopener">WSL文档</a>, WSL包含Version 1和2, 即WSL1和WSL2, 我们默认讨论WSL2</p>
+<p>虚拟机: <a href="https://www.vmware.com/products/workstation-pro.html" target="_blank" rel="noopener">VMWare Workstation Pro</a> + <a href="https://mirrors.ustc.edu.cn/ubuntu-releases/21.04/" target="_blank" rel="noopener">Ubuntu20.04 ISO</a></p>
+<p>两者对比:</p>
+<ul>
+<li>与Windows系统的友好性: WSL优于虚拟机, 因为WSL是微软开发的, 搭配Windows Terminal还是挺好用的</li>
+<li>USB设备支持: 虚拟机优于WSL, 比如希望连接开发板, 对开发板进行烧写/调试, WSL的支持较为麻烦
+<ul>
+<li>WSL2连接USB设备<a href="https://docs.microsoft.com/zh-cn/windows/wsl/connect-usb" target="_blank" rel="noopener">教程</a>, 我个人还没尝试过, 一直用的虚拟机来连接USB设备</li>
+</ul>
+</li>
+<li>小结: 如果是日常编译代码工程用WSL没问题, 如果要连接开发板, 那么建议使用虚拟机</li>
+</ul>
+<h4 id="wsl相关">WSL相关</h4>
+<details class="spoiler "  id="spoiler-0">
+  <summary>WSL2如何走本机代理?</summary>
+  <p><p>WSL2如何走本机代理?</p>
+<ul>
+<li>WSL2基于Hyper-V运行, 导致WSL2和Windows在网络上是两台各自独立的机器, 让WSL2走本机代理需要先找到Windows的IP.</li>
+<li>命令<code>cat /etc/resolv.conf</code>即可查到Windows的IP</li>
+<li>可用下面的脚本来设置代理, 将其存到proxy.sh中, <code>./proxy.sh set</code>即可设置代理, <code>./proxy.sh unset</code>即可取消设置</li>
+</ul>
+<p>配置脚本:</p>
+<pre><code class="language-bash">#!/bin/sh
+# get host's ip
+hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+# get wsl's ip
+wslip=$(hostname -I | awk '{print $1}')
+# proxy's port in host
+port=7890
+
+PROXY_HTTP=&quot;http://${hostip}:${port}&quot;
+
+set_proxy(){
+    export http_proxy=&quot;${PROXY_HTTP}&quot;
+    export HTTP_PROXY=&quot;${PROXY_HTTP}&quot;
+    
+    export https_proxy=&quot;${PROXY_HTTP}&quot;
+    export HTTPS_proxy=&quot;${PROXY_HTTP}&quot;
+    
+    export ALL_PROXY=&quot;${PROXY_SOCKS5}&quot;
+    export all_proxy=${PROXY_SOCKS5}
+}
+
+unset_proxy(){
+    unset http_proxy
+    unset HTTP_PROXY
+    unset https_proxy
+    unset HTTPS_PROXY
+    unset ALL_PROXY
+    unset all_proxy
+}
+
+test_setting(){
+    echo &quot;Host ip:&quot; ${hostip}
+    echo &quot;WSL ip:&quot; ${wslip}
+    echo &quot;Current proxy:&quot; $https_proxy
+}
+
+if [ &quot;$1&quot; = &quot;set&quot; ]
+then
+    set_proxy
+    
+elif [ &quot;$1&quot; = &quot;unset&quot; ]
+then
+    unset_proxy
+    
+elif [ &quot;$1&quot; = &quot;test&quot; ]
+then
+    test_setting
+else
+    echo &quot;Unsupported arguments.&quot;
+fi
+
+</code></pre>
+</p>
+</details>
+<h4 id="虚拟机相关">虚拟机相关</h4>
+<details class="spoiler "  id="spoiler-1">
+  <summary>关于虚拟机下无法安装VMWare Tools的问题:</summary>
+  <p><ol>
+<li>
+<p>无法在VMWare中安装VMWare tools，从而无法使用共享文件夹。经过搜索，可用open-vm-tools，安装命令为：</p>
+<pre><code class="language-bash">sudo apt install open-vm-tools
+</code></pre>
+</li>
+<li>
+<p>在虚拟机设置中启用共享文件夹并配置文件夹</p>
+</li>
+<li>
+<p>在ubuntu下使用命令vmware-hgfsclient即可查看到我们设置的共享文件夹，比如其输出为</p>
+<pre><code class="language-bash">C 
+D 
+G
+</code></pre>
+<p>即我们设置的三个共享文件夹</p>
+</li>
+<li>
+<p>如果不存在/mnt/hgfs文件夹，则需创建</p>
+<pre><code class="language-bash">mkdir /mnt/hgfs
+</code></pre>
+</li>
+<li>
+<p>使用挂载命令：</p>
+<pre><code class="language-bash">sudo vmhgfs-fuse -o allow_other -o auto_unmount .host:/ /mnt/hgfs
+</code></pre>
+<p>即可将.host:/下的C D G文件夹挂在到/mnt/hgfs下
+如果成功，使用命令 ls /mnt/hgfs即可看到C D G这三个文件夹</p>
+</li>
+<li>
+<p>上述挂载命令是一次性的，关机就会导致挂载消失，因此需配置开机自动挂载：</p>
+<pre><code class="language-bash">cd /etc/systemd/system
+sudo gedit ./mnt.hgfs.service
+</code></pre>
+<p>填入如下内容:</p>
+<pre><code class="language-bash">[Unit]
+
+Description=Load VMware shared folders
+
+Requires=vmware-vmblock-fuse.service
+
+After=vmware-vmblock-fuse.service
+
+ConditionPathExists=.host:/
+
+ConditionVirtualization=vmware
+
+[Service]
+
+Type=oneshot
+
+RemainAfterExit=yes
+
+ExecStart=
+
+ExecStart=/usr/bin/vmhgfs-fuse -o allow_other -o auto_unmount .host:/ /mnt/hgfs
+
+[Install]
+
+WantedBy=multi-user.target
+</code></pre>
+</li>
+<li>
+<p>使用systemctl命令启动该开机运行服务：</p>
+<pre><code class="language-bash">sudo systemctl enable mnt.hgfs.service
+</code></pre>
+</li>
+</ol>
+</p>
+</details>
+<h2 id="写作环境">写作环境</h2>
+<h2 id="科学上网">科学上网</h2>
+
+          </div>
+
+          
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Jan 14, 2022</p>
+
+          
+
+
+
+
+
+          
+
+
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.c7dbcd0a03997d954a216caf59fc7681.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

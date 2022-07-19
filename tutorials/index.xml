@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jipeng Zhang Homepage</title>
-    <link>https://Ji-Peng.github.io/</link>
-      <atom:link href="https://Ji-Peng.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jipeng Zhang Homepage</description>
+    <title>Tutorial | Jipeng Zhang Homepage</title>
+    <link>https://Ji-Peng.github.io/tutorials/</link>
+      <atom:link href="https://Ji-Peng.github.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tutorial</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Ji-Peng.github.io/media/icon_hu1fae52e4fd553c9fd563a6a4b8ee5205_26643_512x512_fill_lanczos_center_3.png</url>
-      <title>Jipeng Zhang Homepage</title>
-      <link>https://Ji-Peng.github.io/</link>
+      <title>Tutorial</title>
+      <link>https://Ji-Peng.github.io/tutorials/</link>
     </image>
     
   </channel>
