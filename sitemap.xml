@@ -2,23 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Ji-Peng.github.io/tutorials/basic/</loc>
-    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Ji-Peng.github.io/tutorials/better-docs/</loc>
-    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Ji-Peng.github.io/</loc>
-    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Ji-Peng.github.io/tutorials/</loc>
-    <lastmod>2022-01-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Ji-Peng.github.io/authors/</loc>
   </url><url>
     <loc>https://Ji-Peng.github.io/categories/</loc>
   </url><url>
     <loc>https://Ji-Peng.github.io/author/jipeng-zhang/</loc>
+  </url><url>
+    <loc>https://Ji-Peng.github.io/</loc>
+  </url><url>
+    <loc>https://Ji-Peng.github.io/software/</loc>
   </url><url>
     <loc>https://Ji-Peng.github.io/tags/</loc>
   </url>
