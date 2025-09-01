@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://Ji-Peng.github.io/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://Ji-Peng.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/author/jipeng-zhang/</loc>
+    <loc>https://Ji-Peng.github.io/author/jipeng-zhang/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://Ji-Peng.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/software/</loc>
+    <loc>https://Ji-Peng.github.io/software/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://Ji-Peng.github.io/tags/</loc>
   </url>
 </urlset>
